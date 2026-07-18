@@ -7,8 +7,9 @@ Write your cost formula (math or pseudocode). It must include:
 - at least one size-based factor
 
 ```java 
-// finalCost = baseCost + totalWeight
-    //  + 2(lw + lh + wh) -- size factor
+// finalCost = baseCost
+//           + (weight * 0.50)
+//           + (surfaceArea * 0.02)
 ```
 
 
