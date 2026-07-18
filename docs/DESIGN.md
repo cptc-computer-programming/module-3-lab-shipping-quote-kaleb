@@ -7,12 +7,15 @@ Write your cost formula (math or pseudocode). It must include:
 - at least one size-based factor
 
 ```java 
-// formula could go here
+// finalCost = baseCost
+//           + (weight * 0.50)
+//           + (surfaceArea * 0.02)
 ```
 
 
 Brief justification (2–4 sentences):
-
+I decided to choose surface area as my size factor choice because I would assume when storing packages 
+you should be wary about the other packages around it. Specifically, figuring out the surface area of all packages surrounding should be most optimal as to plan around fitting all packages in.
 ---
 
 ## Method List
@@ -26,31 +29,31 @@ For each method, keep it short. Include only:
 Use at least 5 methods.
 
 **Method 1**:
-- description:
-- inputs:
-- output:
-- return type:
+- description: package info, volume, size factor, and final shipping cost.
+- inputs: weight, length, width, height, volume, size factor, and shipping cost.
+- output: shipping quote shown on console.
+- return type: void
 
 **Method 2**:
-- description:
-- inputs:
-- output:
-- return type:
+- description: find volume
+- inputs: length, width, height
+- output: volume
+- return type: double
 
 **Method 3**:
-- description:
-- inputs:
-- output:
-- return type:
+- description: find weight cost
+- inputs: weight
+- output: weight cost
+- return type: double
 
 **Method 4**:
-- description:
-- inputs:
-- output:
-- return type:
+- description: method for finding surface area
+- inputs: length width height
+- output: surface area of package
+- return type: double
 
 **Method 5**:
-- description:
-- inputs:
-- output:
-- return type:
+- description: method for finding total price
+- inputs: weight cost + surface area cost + volume cost
+- output: total shipping
+- return type: double
